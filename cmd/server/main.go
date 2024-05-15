@@ -14,6 +14,8 @@ import (
 
 func main() {
 
+	fmt.Println("kpibuffer server started")
+
 	appStorage := memstorage.NewStorage()
 	storageHandler := handlers.NewStorageHandler(appStorage)
 
